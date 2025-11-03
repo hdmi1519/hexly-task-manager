@@ -4,7 +4,6 @@ const outDir = "./src/assets/icons";
 
 const iconTemplate = (variables, { tpl }) => {
   return tpl`
-import * as React from "react";
 import type { SVGProps } from "react";
 
 const ${variables.componentName} = (props: SVGProps<SVGSVGElement>) => (
