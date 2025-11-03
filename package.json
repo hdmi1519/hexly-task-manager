@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun run icons && vite",
-    "build": "npm run icons && tsc -b && vite build",
+    "build": "bun run icons && tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "icons": "svgr ./public/icons"
