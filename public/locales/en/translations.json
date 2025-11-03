@@ -1,0 +1,52 @@
+{
+  "app": {
+    "title": "Task Manager"
+  },
+  "tasks": {
+    "title": "Tasks",
+    "addTask": "Add Task",
+    "editTask": "Edit Task",
+    "deleteTask": "Delete Task",
+    "noTasks": "No tasks yet. Create your first task!",
+    "completed": "Completed",
+    "active": "Active",
+    "overdue": "Overdue"
+  },
+  "form": {
+    "title": "Title",
+    "description": "Description",
+    "deadline": "Deadline",
+    "tags": "Tags",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "tags": {
+    "manage": "Manage Tags",
+    "create": "Create Tag",
+    "name": "Tag Name",
+    "color": "Color",
+    "noTags": "No tags yet"
+  },
+  "search": {
+    "placeholder": "Search tasks..."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "toggle": "Toggle Theme"
+  },
+  "language": {
+    "toggle": "Language"
+  },
+
+  "errors": {
+    "404": {
+      "title": "Page Not Found",
+      "subtitle": "Oops! Looks like you're lost",
+      "description": "The page you are looking for does not exist or has been moved.",
+      "back_home": "Back to Home"
+    }
+  }
+}
