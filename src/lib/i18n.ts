@@ -13,7 +13,11 @@ i18next
     supportedLngs,
     fallbackLng: "ru",
     interpolation: { escapeValue: false },
-    backend: { loadPath: "/locales/{{lng}}/translations.json" },
+    backend: {
+      loadPath: `${
+        import.meta.env.BASE_URL || ""
+      }/locales/{{lng}}/translations.json`,
+    },
     detection: {
       order: ["localStorage", "navigator"],
       caches: ["localStorage"],
