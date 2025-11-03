@@ -32,11 +32,6 @@ jobs:
       - name: Build
         run: bun run build
 
-      - name: Copy public files
-        run: |
-          cp public/favicon.ico dist/
-          cp -r public/locales dist/
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
